@@ -1,4 +1,6 @@
-# CMPSC 311 - Project
+# ChatApplication — C/GTK Multi-Client Chat
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/msaintjean27/ChatApplication?quickstart=1)
 
 This is a multi-client chatroom application written in C using socket programming and POSIX threads.
 
