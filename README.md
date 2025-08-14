@@ -28,6 +28,7 @@ Now real-time chat is available between client terminals
 - Chat activity logged in server.log
 
 # Simple Code Explanations
+
 ## server.c
 
 socket(), bind(), listen(): Creates the server and prepares it to accept connections.
@@ -39,12 +40,12 @@ Maintains a client list using MUTEX protection for thread safety
 Logs all messages and events to log file, server.log
 
 
-client.c
+## client.c
 
 socket() + connect(): Connects to the server on 127.0.0.1:8888.
 pthread_create(): Receiver thread. This thread keeps listening for messages from the server.
 Main thread: Reads user input and sends it to the server.
 
-communication.h
+## communication.h
 
 Header file to define shared constants like PORT, BUFFER_SIZE, MAX_CLIENTS
