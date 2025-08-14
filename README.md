@@ -28,7 +28,7 @@ Now real-time chat is available between client terminals
 - Chat activity logged in server.log
 
 # Simple Code Explanations
-##server.c
+## server.c
 
 socket(), bind(), listen(): Creates the server and prepares it to accept connections.
 accept(): Waits for clients to connect.
