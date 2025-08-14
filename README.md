@@ -14,7 +14,6 @@ Open 3 terminals, go to project folder, then
 Now real-time chat is available between client terminals
 
 # Features
-
 - Multiple clients can connect simultaneously 
 - Each client handled on separate threads for concurrency
 - Multiple commands supported: /who, /nick <newname>, /msg <user> <text>, /quit. 
@@ -27,8 +26,7 @@ Now real-time chat is available between client terminals
 - Chat activity logged in server.log
 
 # Simple Code Explanations
-
-server.c
+##server.c
 
 socket(), bind(), listen(): Creates the server and prepares it to accept connections.
 accept(): Waits for clients to connect.
@@ -48,10 +46,3 @@ Main thread: Reads user input and sends it to the server.
 communication.h
 
 Header file to define shared constants like PORT, BUFFER_SIZE, MAX_CLIENTS
-
-# Contributors
-- Megan Saint-Jean (mjs9193@psu.edu)
-- Chloe Scarazzo (cms8938@psu.edu)
-- Kiseong Kim (kjk6172@psu.edu)
-- Michael Mensah (mkm7244@psu.edu)
-- Sadiq Oluwaseyi Alli (sja6134@psu.edu)
